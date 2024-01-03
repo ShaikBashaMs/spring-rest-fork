@@ -9,6 +9,7 @@ public class SprRestApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(SprRestApplication.class, args);
 		System.out.println("Shaik Main Method");
+		System.out.println("Shaik Main Method2");
 	}
 
 
