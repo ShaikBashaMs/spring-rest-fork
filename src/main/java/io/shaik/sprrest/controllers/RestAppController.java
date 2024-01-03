@@ -36,7 +36,7 @@ public class RestAppController {
     }
 
     @RequestMapping(value = "/master", method = RequestMethod.GET)
-    public String findShaik122() {
+    public String findShaik122s() {
         return "master2";
     }
 }
