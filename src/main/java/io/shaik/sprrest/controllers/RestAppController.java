@@ -16,5 +16,8 @@ public class RestAppController {
         return app;
     }
 
-
+    @RequestMapping(value = "/master", method = RequestMethod.GET)
+    public String findMaster() {
+        return "master";
+    }
 }
